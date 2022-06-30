@@ -1,0 +1,184 @@
+body{
+	background: beige;
+}
+
+
+
+.cuerpo{
+	display: flex;
+	position: relative;
+}
+
+.cuerpo .barra{
+	position: fixed;
+	width: 150px;
+	height: 100%;
+	background: black ;
+	padding: 30px 0;
+	font-family: 'Dancing Script', cursive;
+	
+}
+
+.cuerpo .barra h2{
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.cuerpo .barra h2 a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.cuerpo .barra ul li{
+	list-style: none;
+	padding: 10px;
+	color: white;
+	font-size: 25px;
+	margin: 5px;
+
+}
+
+.cuerpo .barra ul li a{
+	color: white;
+	text-decoration: none;
+
+}
+
+
+.cuerpo .barra ul li:hover{
+	background: #C0C0C0;
+	text-align: center;
+
+}
+
+
+.redes{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+}
+
+.redes a {
+	display: block;
+	width: 40px;
+	background: white;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin: 13px;
+	color: black;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+
+}
+
+
+
+.cuerpo .main{
+	width: 90%;
+	margin-left: 150px;
+
+}
+
+.cuerpo .main .titulo{
+	padding: 10px;
+	background: #fff;
+	color: #000000;
+	border-bottom: 1px solid #e0e4e8;
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Dancing Script', cursive;
+}
+
+.registro	{
+	width: 400px;
+	background: grey;
+	padding: 30px;
+	margin: auto;
+	margin-top: 50px;
+	border-radius: 4px;
+	font-family: 'Barlow', sans-serif;
+	color: white;
+	box-shadow: 7px 13px 37px #000;
+
+
+}
+
+
+.registro h4{
+	font-family: 'Barlow', sans-serif;
+	font-size: 22px;
+	margin-bottom: 30px;
+
+
+}
+
+.control{
+	width: 100%;
+	background-color: beige;
+	padding: 10px;
+	border: 1px solid black;
+	font-family: 'Barlow', sans-serif;
+	font-size: 15px;
+	border-radius: 4px;
+	margin-bottom: 10px;
+}
+
+.registro p {
+	height: 40px;
+	text-align: center;
+	font-size: 15px;
+	line-height: 40px;
+}
+
+.registro a{
+	color: white;
+	text-decoration: none;
+}
+.registro a:hover{
+	color: white;
+	text-decoration: underline;
+}
+
+
+.botones{
+	margin-top: 30px;
+}
+
+.boton{
+	width: 100%;
+	border: none;
+	padding: 12px;
+	background-color: black;
+	color: white;
+	margin: 10px 0;
+	font-size: 15px;
+	cursor: pointer;
+
+}
+
+.boton:hover{
+	background-color: lightblue;
+	transition: .25s;
+}
+
+.boton2{
+	width: 100%;
+	border: none;
+	padding: 12px;
+	background-color: black;
+	color: white;
+	margin: 10px 0;
+	font-size: 15px;
+	cursor: pointer;
+
+}
+
+.boton2:hover{
+	background-color: lightblue;
+	transition: .25s;
+}

@@ -1,0 +1,162 @@
+body{
+	background: beige;
+}
+
+
+
+.cuerpo{
+	display: flex;
+	position: relative;
+}
+
+.cuerpo .barra{
+	position: fixed;
+	width: 150px;
+	height: 100%;
+	background: black ;
+	padding: 30px 0;
+	font-family: 'Dancing Script', cursive;
+	
+}
+
+.cuerpo .barra h2{
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.cuerpo .barra h2 a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.cuerpo .barra ul li{
+	list-style: none;
+	padding: 10px;
+	color: white;
+	font-size: 25px;
+	margin: 5px;
+
+}
+
+.cuerpo .barra ul li a{
+	color: white;
+	text-decoration: none;
+
+}
+
+
+.cuerpo .barra ul li:hover{
+	background: #C0C0C0;
+	text-align: center;
+
+}
+
+
+.redes{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+}
+
+.redes a {
+	display: block;
+	width: 40px;
+	background: white;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin: 13px;
+	color: black;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+
+}
+
+
+
+.cuerpo .main{
+	width: 100%;
+	margin-left: 150px;
+}
+
+.cuerpo .main .titulo{
+	padding: 10px;
+	background: #fff;
+	color: #000000;
+	border-bottom: 1px solid #e0e4e8;
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Dancing Script', cursive;
+}
+
+.cuerpo .main .contenido{
+	width: 90%;
+
+	max-width: 1500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3em;
+	margin-bottom: 3em;
+
+
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 100px;
+}
+
+.item {
+	background-color: #fff;
+	cursor: pointer;
+	box-shadow: 0 0 5px;
+	width: 300px;
+	height: 250px;
+
+}
+
+.item:hover{
+	width: 305px;
+	height: 305px;
+	transition: all 0.4s;
+}
+
+.img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	text-decoration: none;
+	
+}
+
+.desc{
+	position: absolute;
+	background-image: linear-gradient(to top, #cfd9df96 0%, #e2ebd0a1 100%);
+	width:	300px;
+	height: 0;
+	transition: 0.55s ease;
+	overflow: hidden;
+}
+
+.desc h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: 'Dancing Script', cursive;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	transform: translate(-50%, -50%);
+
+
+}
+
+.item:hover .desc{
+	height: 305px;
+	width: 305px;
+	border-radius: 5px;
+
+}
+
+
